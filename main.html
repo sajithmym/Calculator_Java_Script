@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../Project/Weather/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 shadow-1g p-3 mb-5 bg-white rounded text-center">
+                <h2>Calculator Application</h2>
+
+                <table class="table">
+
+                    <tr>
+
+                        <td colspan="3"><input type="text" id="inp"></td>
+                        <td><input type="button" value="Clear" onclick="clean()"></td>
+
+                    </tr>
+                    
+                    <tr>
+
+                        <td><input type="button" value="7" onclick="Type('7')"></td>
+                        <td><input type="button" value="8" onclick="Type('8')"></td>
+                        <td><input type="button" value="9" onclick="Type('9')"></td>
+                        <td><input type="button" value="/" onclick="Type('/')"></td>
+                        
+                    </tr>
+
+                    <tr>
+
+                        <td><input type="button" value="4" onclick="Type('4')"></td>
+                        <td><input type="button" value="5" onclick="Type('5')"></td>
+                        <td><input type="button" value="6" onclick="Type('6')"></td>
+                        <td><input type="button" value="*" onclick="Type('*')"></td>
+                        
+                    </tr>
+
+                    <tr>
+
+                        <td><input type="button" value="1" onclick="Type('1')"></td>
+                        <td><input type="button" value="2" onclick="Type('2')"></td>
+                        <td><input type="button" value="3" onclick="Type('3')"></td>
+                        <td><input type="button" value="-" onclick="Type('-')"></td>
+                        
+                    </tr>
+
+                    <tr>
+
+                        <td><input type="button" value="." onclick="Type('.')"></td>
+                        <td><input type="button" value="0" onclick="Type('0')"></td>
+                        <td><input type="button" value="=" onclick="Done()"></td>
+                        <td><input type="button" value="+" onclick="Type('+')"></td>
+                        
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="../Project/Weather/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <script src="j.js"></script>
+</body>
+</html>

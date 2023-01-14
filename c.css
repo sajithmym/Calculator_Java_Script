@@ -1,0 +1,37 @@
+body{
+    background-color: gray;
+}
+
+.col-md-6{
+    background-image: linear-gradient(to top,rgb(135, 8, 8) 0%,rgba(215, 83, 12, 0.648) 100%) !important;
+    margin-top: 100px !important;
+    border-radius: 20px !important;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: black !important;
+    color: rgb(205, 21, 27) !important;
+    font-weight: bolder !important;
+    font-size: 20pt !important;
+    border: 3px solid rgb(19, 1, 1) !important;
+    border-radius: 10px !important;
+    transition: all 1s;
+}
+
+input[type=button]:hover {
+    border-radius: 70px !important;
+    background-color: rgb(235, 57, 33) !important;
+    color: rgb(20, 236, 236) !important;
+}
+
+input[type=text] {
+    width: 100% !important;
+    border-radius: 5px !important;
+}
+
+h2{
+    color: rgb(236, 221, 215) !important;
+    font-weight: bolder !important;
+    margin-top: 15px !important;
+}
