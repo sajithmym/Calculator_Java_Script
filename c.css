@@ -9,14 +9,14 @@ body{
 }
 
 input[type=button] {
-    width: 100%;
-    background-color: black !important;
-    color: rgb(205, 21, 27) !important;
-    font-weight: bolder !important;
-    font-size: 20pt !important;
-    border: 3px solid rgb(19, 1, 1) !important;
-    border-radius: 10px !important;
-    transition: all 1s;
+    width : 100%;
+    background-color : black !important;
+    color : rgb(205, 21, 27) !important;
+    font-weight : bolder !important;
+    font-size : 20pt !important;
+    border : 3px solid rgb(19, 1, 1) !important;
+    border-radius : 10px !important;
+    transition : all 1s;
 }
 
 input[type=button]:hover {
